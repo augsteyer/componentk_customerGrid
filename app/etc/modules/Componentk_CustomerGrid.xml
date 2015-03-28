@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Componentk_CustomerGrid>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Adminhtml />
+                <Mage_Customer />
+            </depends>
+        </Componentk_CustomerGrid>
+    </modules>
+</config>

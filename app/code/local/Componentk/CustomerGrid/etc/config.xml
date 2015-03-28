@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Componentk_CustomerGrid>
+            <version>0.1.0</version>
+        </Componentk_CustomerGrid>
+    </modules>
+    <global>
+        <blocks>
+            <componentk_customergrid>
+                <class>Componentk_CustomerGrid_Block</class>
+            </componentk_customergrid>
+            <adminhtml>
+                <rewrite>
+                    <customer_grid>Componentk_CustomerGrid_Block_Adminhtml_Customer_Grid</customer_grid>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+</config>
